@@ -17,9 +17,9 @@ const projects = [
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <section className="text-center py-16 bg-white border-b border-slate-200">
-        <h1 className="text-4xl font-bold mb-4 text-slate-900">My Portfolio</h1>
-        <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+      <section className="text-center py-12 md:py-16 bg-white border-b border-slate-200">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">My Portfolio</h1>
+        <p className="text-lg text-slate-600 max-w-2xl mx-auto px-4">
           I'm a full-stack developer learning Next.js and React. Here are some of my recent projects.
         </p>
       </section>

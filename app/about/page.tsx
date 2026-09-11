@@ -16,13 +16,13 @@ const skills = {
 export default function About() {
     return (
         <main className="min-h-screen bg-slate-900">
-            <div className="max-w-4xl mx-auto px-4 py-12">
-            <h2 className="text-3xl font-bold mb-4 text-white">About Me</h2>
-            <p className="text-lg text-slate-200 mb-10">
+            <div className="max-w-4xl mx-auto px-4 py-8 md:py-12">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">About Me</h2>
+            <p className="text-base md:text-lg text-slate-200 mb-8 md:mb-10">
                 This about page shares more information about my background and work.
             </p>
 
-            <h3 className="text-2xl font-semibold mb-6 text-white">Technical Skills</h3>
+            <h3 className="text-xl md:text-2xl font-semibold mb-6 text-white">Technical Skills</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {Object.entries(skills).map(([category, skillList]) => (
                     <SkillCard
